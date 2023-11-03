@@ -29,11 +29,17 @@ $ npm install -g .
 
 ## Commands
 
+#### to fetch recommendations (if available)
+
 ```bash
 $ linkedin-reco-scraper <linkedin-slug-name>
 ```
 
-Scrapes Linkedin recommendations **(if available)** and outputs them.
+#### to fetch recommendations and commit them on personal github repo
+
+```bash
+$ linkedin-reco-scraper <linkedin-slug-name> -s -r <yourgithubrepo> -o <githubowner> -e <githubemail> -t <githubtoken> -p <yourpath>
+```
 
 #### Options
 
@@ -42,5 +48,4 @@ Scrapes Linkedin recommendations **(if available)** and outputs them.
 - `-o --githubOwner` - github owner.
 - `-e --githubEmail` - github email.
 - `-t --githubToken` - github token.
-- `-e --githubEmail` - github email.
 - `-p --path` - path to save the json file.
