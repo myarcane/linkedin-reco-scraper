@@ -2,9 +2,11 @@
 <h1><strong>linkedin-reco-scraper</strong></h1>
 
 A small CLI tool to be able to extract my LinkedIn recommendations
-![linkedin-reco-scraper](https://github.com/myarcane/linkedin-reco-sraper/assets/1671293/69914837-cb58-4de3-8612-34d7fa710f39)
+![linkedin-reco-scraper (1)](https://github.com/myarcane/linkedin-reco-sraper/assets/1671293/90f15e98-04f0-4cab-a17e-c622a6f5057c)
+
 
 </div>
+
 
 ## Why this CLI?
 
