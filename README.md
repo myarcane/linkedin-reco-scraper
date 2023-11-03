@@ -1,12 +1,9 @@
 <div align="center">
 <h1><strong>linkedin-reco-scraper</strong></h1>
-<h3>A small CLI tool to be able to extract my LinkedIn recommendations</h2>
-<p/>
 ![linkedin-reco-scraper (1)](https://github.com/myarcane/linkedin-reco-sraper/assets/1671293/90f15e98-04f0-4cab-a17e-c622a6f5057c)
-
-
 </div>
 
+## A small CLI tool to be able to extract my LinkedIn recommendations</h2>
 
 ## Why this CLI?
 
