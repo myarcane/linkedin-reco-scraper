@@ -1,0 +1,45 @@
+{
+  "name": "linkedin-reco-sraper",
+  "version": "0.0.1",
+  "description": "Node.js CLI to scrape Linkedin received recommendations.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\""
+  },
+  "bin": {
+    "linkedin-reco-sraper": "./dist/index.js"
+  },
+  "engines": {
+    "node": ">=18.18.2"
+  },
+  "keywords": [
+    "cli-app",
+    "cli",
+    "linkedin",
+    "linkedin web scraper",
+    "linkedin recommendations",
+    "recommendation scraper",
+    "web scraper"
+  ],
+  "author": "Florian Mailliet <florian@mailliet.me>",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/rest": "^20.0.2",
+    "cli-spinner": "^0.2.10",
+    "commander": "^11.1.0",
+    "js-base64": "^3.7.5",
+    "puppeteer": "^21.5.0"
+  },
+  "devDependencies": {
+    "@types/cli-spinner": "^0.2.2",
+    "@types/node": "^20.8.7",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2"
+  }
+}
