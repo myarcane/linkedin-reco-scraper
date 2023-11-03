@@ -10,7 +10,7 @@ A small CLI tool to be able to extract my LinkedIn recommendations
 
 ## Why this CLI?
 
-I wanted to display my LinkedIn recommendations on my personal website without having to copy paste them manually from Linkedin.
+I wanted to be able display my LinkedIn recommendations on my personal website without having to copy paste them manually from Linkedin.
 
 At first, I thought LinkedIn would provide an API to be able to easily fetch them but sadly since 2015 you need an explicit approval from their end to access the API.
 
