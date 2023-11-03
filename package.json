@@ -1,5 +1,5 @@
 {
-  "name": "linkedin-reco-sraper",
+  "name": "linkedin-reco-scraper",
   "version": "0.0.1",
   "description": "Node.js CLI to scrape Linkedin received recommendations.",
   "type": "module",
@@ -13,7 +13,7 @@
     "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\""
   },
   "bin": {
-    "linkedin-reco-sraper": "./dist/index.js"
+    "linkedin-reco-scraper": "./dist/index.js"
   },
   "engines": {
     "node": ">=18.18.2"
