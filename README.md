@@ -29,13 +29,13 @@ $ npm install -g .
 
 ## Commands
 
-#### to fetch recommendations (if available)
+#### To fetch recommendations (if available)
 
 ```bash
 $ linkedin-reco-scraper <linkedin-slug-name>
 ```
 
-#### to fetch recommendations and commit them on personal github repo
+#### To fetch recommendations and commit them on a personal github repo
 
 ```bash
 $ linkedin-reco-scraper <linkedin-slug-name> -s -r <yourgithubrepo> -o <githubowner> -e <githubemail> -t <githubtoken> -p <yourpath>
