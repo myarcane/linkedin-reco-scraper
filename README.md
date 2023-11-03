@@ -10,15 +10,13 @@ A small CLI tool to be able to extract my LinkedIn recommendations
 
 ## Why this CLI?
 
-I wanted to be able display my LinkedIn recommendations on my personal website without having to copy paste them manually from Linkedin.
+I wanted to showcase my LinkedIn recommendations on my personal website without the need to manually copy and paste them from LinkedIn. Initially, I believed that LinkedIn would offer an API to facilitate this process, but unfortunately, since 2015, accessing the API requires explicit approval from their end.
 
-At first, I thought LinkedIn would provide an API to be able to easily fetch them but sadly since 2015 you need an explicit approval from their end to access the API.
+So, I took the initiative to develop a small scraper to directly extract this data from LinkedIn's web pages and send it to my static website. Currently, I perform the extraction using Puppeteer, launching a headless Chrome browser in private mode. As of November 2023, the scraping successfully accomplishes this task 🎉.
 
-So, I decided to build a small scraper to get these data directly from their web pages and send these data to my static web site. Currently the extraction is done with puppeteer launching a chrome headless browser in private mode. As of November 2023, the scraping works for me 🎉.
+I've experimented with the scraper on various LinkedIn profiles and confirmed that I can fetch their recommendations as long as they have made them public.
 
-I also tried with different LinkedIn profiles and I am also able to retrieve their recommendations if they have some of course but also if they made them public.
-
-After multiple scraping, LinkedIn might block the current ip adress and redirect the original browser request to the signin page. I've personally used a VPN to work around that.
+Nevertheless, it's important to be aware that after multiple scraping attempts, LinkedIn may block the current IP address and reroute the original browser request to the sign-in page. To address this issue, I personally used a VPN before performing the scraping.
 
 ## Installation
 
@@ -38,7 +36,7 @@ $ npm install -g .
 $ linkedin-reco-scraper <linkedin-slug-name>
 ```
 
-Scrapes Linkedin recommendations **(if available)** and output them.
+Scrapes Linkedin recommendations **(if available)** and outputs them.
 
 #### Options
 
